@@ -2,6 +2,8 @@
 
 ## Installation
 
+[Persian](README.FA.MD)
+
 To install this library, run:
 
 ```bash
@@ -12,9 +14,9 @@ $ npm install ng-localization --save
 
 This library contains three main part:
 
-### 1) TranslationService: for translating app string to different language .
-### 2) LocalService : for getting all available language with name in english and name in local language
-### 3) TranslationService : for translating string's in html
+##### 1) TranslationService: for translating app string to different language .
+##### 2) LocalService : for getting all available language with name in english and name in local language
+##### 3) TranslationService : for translating string's in html
 
 ... tutorial will complete soon.
 
