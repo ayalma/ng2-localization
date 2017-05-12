@@ -45,7 +45,8 @@ gulp.task('inline-resources', function () {
  *    compiled modules to the /build folder.
  */
 gulp.task('ngc', function () {
-  return ngc({
+  //noinspection JSAnnotator
+    return ngc({
     project: `${tmpFolder}/tsconfig.es5.json`
   })
     .then((exitCode) => {

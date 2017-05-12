@@ -10,6 +10,7 @@ export class TranslateService {
     private _currentLocal: string;
     private _fallback: boolean;
     public onLocalChanged: EventEmitter<string> = new EventEmitter<string>();
+    private PLACEHOLDER = '%';
 
     constructor(@Inject(DICTIONARY) private _translations: any) {
     }
@@ -58,9 +59,8 @@ export class TranslateService {
         return this.replace(translation, words);
     }
     private replace(word = '' , words: string|string[] = '') {
-        console.log(words);
         let translation = word;
-        const values = [].concat(words);
+        const values: string[] = [].concat(words);
         values.forEach((e, i) => {
             translation = translation.replace('{'.concat(i.toString()).concat('}'), e);
         });
