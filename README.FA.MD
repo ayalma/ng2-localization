@@ -10,7 +10,7 @@
 <div dir='ltr'>
 
 ```bash
-$ npm install ng-localization --save
+$ npm install ng2-localization --save
 ```
 
 </div>

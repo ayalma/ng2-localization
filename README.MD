@@ -8,7 +8,7 @@
 To install this library, run:
 
 ```bash
-$ npm install ng-localization --save
+$ npm install ng2-localization --save
 ```
 
 ## How to use:
