@@ -13,7 +13,7 @@ $ npm install ng2-localization --save
 
 ## How to use:
 
-#####Setp1:
+####Setp1:
 create typescript file for all your language's
 
 lang-en.ts
@@ -31,7 +31,7 @@ export const LANG_FA_TRANS = {
 };
 ```
 
-#####Setp2:
+####Setp2:
 import this library to your your app main module like below example.
 ```typescript
 import { BrowserModule } from '@angular/platform-browser';
@@ -67,7 +67,7 @@ const dictionary = {
 export class AppModule { }
 ```
 
-#####Setp3:
+####Setp3:
 In your component class or html template add localService or translationService and use them like below example:
 
 class code:
